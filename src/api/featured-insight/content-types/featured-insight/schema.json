@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "featured_insights",
+  "info": {
+    "singularName": "featured-insight",
+    "pluralName": "featured-insights",
+    "displayName": "featuredInsight",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "featured_detail": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::insight-detail.insight-detail"
+    }
+  }
+}

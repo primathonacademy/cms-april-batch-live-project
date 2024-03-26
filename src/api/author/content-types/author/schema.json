@@ -1,0 +1,35 @@
+{
+  "kind": "collectionType",
+  "collectionName": "authors",
+  "info": {
+    "singularName": "author",
+    "pluralName": "authors",
+    "displayName": "author",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "authorName": {
+      "type": "string",
+      "maxLength": 200
+    },
+    "authorDesignation": {
+      "type": "string",
+      "maxLength": 300
+    },
+    "aboutAuthor": {
+      "type": "text"
+    },
+    "authorImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    }
+  }
+}
